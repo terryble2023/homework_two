@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/home/blackstar_20_23/.local/cmake-3.31.12-linux-x86_64/bin/cmake",
+			"cpack" : "/home/blackstar_20_23/.local/cmake-3.31.12-linux-x86_64/bin/cpack",
+			"ctest" : "/home/blackstar_20_23/.local/cmake-3.31.12-linux-x86_64/bin/ctest",
+			"root" : "/home/blackstar_20_23/.local/cmake-3.31.12-linux-x86_64/share/cmake-3.31"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 31,
+			"patch" : 12,
+			"string" : "3.31.12",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-fad73ed3d53c5579a105.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 7
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-fad73ed3d53c5579a105.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 7
+				}
+			}
+		}
+	}
+}

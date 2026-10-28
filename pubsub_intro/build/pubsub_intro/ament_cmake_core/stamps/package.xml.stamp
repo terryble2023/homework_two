@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+
+<!--上面是固定思路，照抄-->
+<!--有点感慨了，现在还能再看见类html格式的东西-->
+    
+    <name>pubsub_intro</name>
+    <version>0.0.1</version>
+    <description>ROS2功能包:pubsub_intro 作业内容</description>
+    <maintainer email="wyh20070403@qq.com">blackstar_20_23</maintainer>
+    <license>Apache-2.0</license>
+    <!--纯手写可以用"TODO"，但是为了防止之后有什么其他事所以用了"Apache-2.0"-->
+    <author email="wyh20070403@qq.com">blackstar_20_23</author>
+
+    <!-- 告诉ROS2用什么构建系统来编译这个包。C++包为ament_cmake-->
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>std_msgs</depend>
+
+    <!--构建类型：必写，不然colcon不知道拿什么编译-->
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+
+</package>

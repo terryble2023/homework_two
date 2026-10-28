@@ -1,0 +1,16 @@
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/lib/pubsub_intro/intro_node
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/ament_index/resource_index/package_run_dependencies/pubsub_intro
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/ament_index/resource_index/parent_prefix_path/pubsub_intro
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/environment/ament_prefix_path.sh
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/environment/ament_prefix_path.dsv
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/environment/path.sh
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/environment/path.dsv
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/local_setup.bash
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/local_setup.sh
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/local_setup.zsh
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/local_setup.dsv
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/package.dsv
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/ament_index/resource_index/packages/pubsub_intro
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/cmake/pubsub_introConfig.cmake
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/cmake/pubsub_introConfig-version.cmake
+/home/blackstar_20_23/桌面/homework_two/pubsub_intro/install/pubsub_intro/share/pubsub_intro/package.xml

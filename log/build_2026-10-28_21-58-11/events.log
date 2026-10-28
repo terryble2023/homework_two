@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (pubsub_intro) JobQueued: {'identifier': 'pubsub_intro', 'dependencies': OrderedDict()}
+[0.000300] (pubsub_intro) JobStarted: {'identifier': 'pubsub_intro'}
+[0.004594] (pubsub_intro) JobProgress: {'identifier': 'pubsub_intro', 'progress': 'cmake'}
+[0.005045] (pubsub_intro) Command: {'cmd': ['/home/blackstar_20_23/.local/bin/cmake', '/home/blackstar_20_23/桌面/homework_two/pubsub_intro', '-DCMAKE_INSTALL_PREFIX=/home/blackstar_20_23/桌面/homework_two/install/pubsub_intro'], 'cwd': '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'utf-8'), ('ZAI_OAUTH_CLIENT_ID', 'client_P8X5CMWmlaRO9gyO-KSqtg'), ('ZCODE_DESKTOP_CONTEXT_PROMPT_ENABLED', '1'), ('USER', 'blackstar_20_23'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('INPUT_METHOD', 'fcitx'), ('HOME', '/home/blackstar_20_23'), ('CHROME_DESKTOP', 'zcode.desktop'), ('OLDPWD', '/home/blackstar_20_23/.zcode/workspace/default'), ('DESKTOP_SESSION', 'ubuntu'), ('ZAI_OAUTH_ORIGIN', 'https://chat.z.ai'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/zcode.desktop'), ('ZCODE_APP_VERSION', '3.14.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SDL_IM_MODULE', 'fcitx'), ('MANAGERPID', '1406'), ('LC_CTYPE', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1679'), ('MAKEFLAGS', '-j2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ZCODE_PROCESS_LABEL', 'local-1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5566'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'blackstar_20_23'), ('ZCODE_RUNTIME_ENV', 'production'), ('ZCODE_PERSONAL_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/provider_config.json'), ('JOURNAL_STREAM', '8:2547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ZCODE_BUILTIN_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/runtime/provider/linux-x86_64/3.14.4/endpoint-78d7c3bef4024722642626fe3669a799/zcode-builtin.json'), ('USERNAME', 'blackstar_20_23'), ('ZAI_BUSINESS_BASE_URL', 'https://api.z.ai'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/blackstar_20_23/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ZCode/resources/tools/bfs:/opt/ZCode/resources/tools/ripgrep:/opt/ZCode/resources/tools/ugrep'), ('SESSION_MANAGER', 'local/2023-Y9000P:@/tmp/.ICE-unix/1652,unix/2023-Y9000P:/tmp/.ICE-unix/1652'), ('INVOCATION_ID', '0a0901f3f6114096b0dda988cc876cdb'), ('XDG_MENU_PREFIX', 'gnome-'), ('ZCODE_BUILD_COMMIT_ID', '10bbcea5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('ZCODE_BFS_BINARY', '/opt/ZCode/resources/tools/bfs/bfs'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('PYTHONUTF8', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro'), ('LC_ALL', 'zh_CN.UTF-8'), ('ZCODE_BASE_URL', 'https://zcode.z.ai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZCODE_RG_BINARY', '/opt/ZCode/resources/tools/ripgrep/rg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ZCODE_UGREP_BINARY', '/opt/ZCode/resources/tools/ugrep/ugrep'), ('ZCODE_ENV', 'production'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048098] (pubsub_intro) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099859] (-) TimerEvent: {}
+[0.101974] (pubsub_intro) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.107975] (pubsub_intro) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.144771] (pubsub_intro) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.162278] (pubsub_intro) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.162652] (pubsub_intro) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163197] (pubsub_intro) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173545] (pubsub_intro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199993] (-) TimerEvent: {}
+[0.218166] (pubsub_intro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.231461] (pubsub_intro) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.231729] (pubsub_intro) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.232338] (pubsub_intro) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.238609] (pubsub_intro) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300112] (-) TimerEvent: {}
+[0.332512] (pubsub_intro) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.399111] (pubsub_intro) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400159] (-) TimerEvent: {}
+[0.428504] (pubsub_intro) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.431590] (pubsub_intro) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437686] (pubsub_intro) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.447052] (pubsub_intro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.459119] (pubsub_intro) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.492675] (pubsub_intro) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.494433] (pubsub_intro) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500253] (-) TimerEvent: {}
+[0.554824] (pubsub_intro) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.575786] (pubsub_intro) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.600350] (-) TimerEvent: {}
+[0.606182] (pubsub_intro) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.610682] (pubsub_intro) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.648156] (pubsub_intro) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.649263] (pubsub_intro) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.694839] (pubsub_intro) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700430] (-) TimerEvent: {}
+[0.731935] (pubsub_intro) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.738159] (pubsub_intro) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.739630] (pubsub_intro) StdoutLine: {'line': b'-- Build files have been written to: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/build/pubsub_intro\n'}
+[0.745363] (pubsub_intro) CommandEnded: {'returncode': 0}
+[0.745883] (pubsub_intro) JobProgress: {'identifier': 'pubsub_intro', 'progress': 'build'}
+[0.746304] (pubsub_intro) Command: {'cmd': ['/home/blackstar_20_23/.local/bin/cmake', '--build', '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro'], 'cwd': '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'utf-8'), ('ZAI_OAUTH_CLIENT_ID', 'client_P8X5CMWmlaRO9gyO-KSqtg'), ('ZCODE_DESKTOP_CONTEXT_PROMPT_ENABLED', '1'), ('USER', 'blackstar_20_23'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('INPUT_METHOD', 'fcitx'), ('HOME', '/home/blackstar_20_23'), ('CHROME_DESKTOP', 'zcode.desktop'), ('OLDPWD', '/home/blackstar_20_23/.zcode/workspace/default'), ('DESKTOP_SESSION', 'ubuntu'), ('ZAI_OAUTH_ORIGIN', 'https://chat.z.ai'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/zcode.desktop'), ('ZCODE_APP_VERSION', '3.14.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SDL_IM_MODULE', 'fcitx'), ('MANAGERPID', '1406'), ('LC_CTYPE', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1679'), ('MAKEFLAGS', '-j2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ZCODE_PROCESS_LABEL', 'local-1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5566'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'blackstar_20_23'), ('ZCODE_RUNTIME_ENV', 'production'), ('ZCODE_PERSONAL_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/provider_config.json'), ('JOURNAL_STREAM', '8:2547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ZCODE_BUILTIN_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/runtime/provider/linux-x86_64/3.14.4/endpoint-78d7c3bef4024722642626fe3669a799/zcode-builtin.json'), ('USERNAME', 'blackstar_20_23'), ('ZAI_BUSINESS_BASE_URL', 'https://api.z.ai'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/blackstar_20_23/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ZCode/resources/tools/bfs:/opt/ZCode/resources/tools/ripgrep:/opt/ZCode/resources/tools/ugrep'), ('SESSION_MANAGER', 'local/2023-Y9000P:@/tmp/.ICE-unix/1652,unix/2023-Y9000P:/tmp/.ICE-unix/1652'), ('INVOCATION_ID', '0a0901f3f6114096b0dda988cc876cdb'), ('XDG_MENU_PREFIX', 'gnome-'), ('ZCODE_BUILD_COMMIT_ID', '10bbcea5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('ZCODE_BFS_BINARY', '/opt/ZCode/resources/tools/bfs/bfs'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('PYTHONUTF8', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro'), ('LC_ALL', 'zh_CN.UTF-8'), ('ZCODE_BASE_URL', 'https://zcode.z.ai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZCODE_RG_BINARY', '/opt/ZCode/resources/tools/ripgrep/rg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ZCODE_UGREP_BINARY', '/opt/ZCode/resources/tools/ugrep/ugrep'), ('ZCODE_ENV', 'production'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.761611] (pubsub_intro) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/intro_node.dir/src/main.cpp.o\n'}
+[0.761836] (pubsub_intro) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/intro_node.dir/src/intro_node.cpp.o\n'}
+[0.800533] (-) TimerEvent: {}
+[0.900749] (-) TimerEvent: {}
+[1.000972] (-) TimerEvent: {}
+[1.101183] (-) TimerEvent: {}
+[1.201356] (-) TimerEvent: {}
+[1.301528] (-) TimerEvent: {}
+[1.401697] (-) TimerEvent: {}
+[1.502003] (-) TimerEvent: {}
+[1.602213] (-) TimerEvent: {}
+[1.702417] (-) TimerEvent: {}
+[1.802623] (-) TimerEvent: {}
+[1.902913] (-) TimerEvent: {}
+[2.003115] (-) TimerEvent: {}
+[2.103291] (-) TimerEvent: {}
+[2.203481] (-) TimerEvent: {}
+[2.303653] (-) TimerEvent: {}
+[2.403929] (-) TimerEvent: {}
+[2.504144] (-) TimerEvent: {}
+[2.604389] (-) TimerEvent: {}
+[2.704593] (-) TimerEvent: {}
+[2.804798] (-) TimerEvent: {}
+[2.904991] (-) TimerEvent: {}
+[3.005173] (-) TimerEvent: {}
+[3.105350] (-) TimerEvent: {}
+[3.205524] (-) TimerEvent: {}
+[3.305726] (-) TimerEvent: {}
+[3.405997] (-) TimerEvent: {}
+[3.506227] (-) TimerEvent: {}
+[3.606463] (-) TimerEvent: {}
+[3.706748] (-) TimerEvent: {}
+[3.807031] (-) TimerEvent: {}
+[3.907319] (-) TimerEvent: {}
+[4.007607] (-) TimerEvent: {}
+[4.107804] (-) TimerEvent: {}
+[4.208002] (-) TimerEvent: {}
+[4.308300] (-) TimerEvent: {}
+[4.408467] (-) TimerEvent: {}
+[4.508784] (-) TimerEvent: {}
+[4.609113] (-) TimerEvent: {}
+[4.709412] (-) TimerEvent: {}
+[4.809700] (-) TimerEvent: {}
+[4.909868] (-) TimerEvent: {}
+[5.010148] (-) TimerEvent: {}
+[5.110313] (-) TimerEvent: {}
+[5.210528] (-) TimerEvent: {}
+[5.310857] (-) TimerEvent: {}
+[5.392128] (pubsub_intro) StdoutLine: {'line': b'[100%] Linking CXX executable intro_node\n'}
+[5.410947] (-) TimerEvent: {}
+[5.511122] (-) TimerEvent: {}
+[5.596162] (pubsub_intro) StdoutLine: {'line': b'[100%] Built target intro_node\n'}
+[5.605885] (pubsub_intro) CommandEnded: {'returncode': 0}
+[5.606405] (pubsub_intro) JobProgress: {'identifier': 'pubsub_intro', 'progress': 'install'}
+[5.608948] (pubsub_intro) Command: {'cmd': ['/home/blackstar_20_23/.local/bin/cmake', '--install', '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro'], 'cwd': '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHONIOENCODING', 'utf-8'), ('ZAI_OAUTH_CLIENT_ID', 'client_P8X5CMWmlaRO9gyO-KSqtg'), ('ZCODE_DESKTOP_CONTEXT_PROMPT_ENABLED', '1'), ('USER', 'blackstar_20_23'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('INPUT_METHOD', 'fcitx'), ('HOME', '/home/blackstar_20_23'), ('CHROME_DESKTOP', 'zcode.desktop'), ('OLDPWD', '/home/blackstar_20_23/.zcode/workspace/default'), ('DESKTOP_SESSION', 'ubuntu'), ('ZAI_OAUTH_ORIGIN', 'https://chat.z.ai'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/zcode.desktop'), ('ZCODE_APP_VERSION', '3.14.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SDL_IM_MODULE', 'fcitx'), ('MANAGERPID', '1406'), ('LC_CTYPE', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1679'), ('MAKEFLAGS', '-j2'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ZCODE_PROCESS_LABEL', 'local-1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5566'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'blackstar_20_23'), ('ZCODE_RUNTIME_ENV', 'production'), ('ZCODE_PERSONAL_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/provider_config.json'), ('JOURNAL_STREAM', '8:2547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('ZCODE_BUILTIN_PROVIDER_CONFIG_FILE', '/home/blackstar_20_23/.zcode/v2/runtime/provider/linux-x86_64/3.14.4/endpoint-78d7c3bef4024722642626fe3669a799/zcode-builtin.json'), ('USERNAME', 'blackstar_20_23'), ('ZAI_BUSINESS_BASE_URL', 'https://api.z.ai'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/blackstar_20_23/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ZCode/resources/tools/bfs:/opt/ZCode/resources/tools/ripgrep:/opt/ZCode/resources/tools/ugrep'), ('SESSION_MANAGER', 'local/2023-Y9000P:@/tmp/.ICE-unix/1652,unix/2023-Y9000P:/tmp/.ICE-unix/1652'), ('INVOCATION_ID', '0a0901f3f6114096b0dda988cc876cdb'), ('XDG_MENU_PREFIX', 'gnome-'), ('ZCODE_BUILD_COMMIT_ID', '10bbcea5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('ZCODE_BFS_BINARY', '/opt/ZCode/resources/tools/bfs/bfs'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('PYTHONUTF8', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/blackstar_20_23/桌面/homework_two/build/pubsub_intro'), ('LC_ALL', 'zh_CN.UTF-8'), ('ZCODE_BASE_URL', 'https://zcode.z.ai'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ZCODE_RG_BINARY', '/opt/ZCode/resources/tools/ripgrep/rg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ZCODE_UGREP_BINARY', '/opt/ZCode/resources/tools/ugrep/ugrep'), ('ZCODE_ENV', 'production'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.610435] (pubsub_intro) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.610575] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/lib/pubsub_intro/intro_node\n'}
+[5.611143] (-) TimerEvent: {}
+[5.613361] (pubsub_intro) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/lib/pubsub_intro/intro_node" to ""\n'}
+[5.613757] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/ament_index/resource_index/package_run_dependencies/pubsub_intro\n'}
+[5.613868] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/ament_index/resource_index/parent_prefix_path/pubsub_intro\n'}
+[5.613971] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/environment/ament_prefix_path.sh\n'}
+[5.614070] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/environment/ament_prefix_path.dsv\n'}
+[5.614180] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/environment/path.sh\n'}
+[5.614285] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/environment/path.dsv\n'}
+[5.614341] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/local_setup.bash\n'}
+[5.614398] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/local_setup.sh\n'}
+[5.614453] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/local_setup.zsh\n'}
+[5.614508] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/local_setup.dsv\n'}
+[5.614640] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/package.dsv\n'}
+[5.615001] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/ament_index/resource_index/packages/pubsub_intro\n'}
+[5.615146] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/cmake/pubsub_introConfig.cmake\n'}
+[5.615344] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/cmake/pubsub_introConfig-version.cmake\n'}
+[5.615558] (pubsub_intro) StdoutLine: {'line': b'-- Installing: /home/blackstar_20_23/\xe6\xa1\x8c\xe9\x9d\xa2/homework_two/install/pubsub_intro/share/pubsub_intro/package.xml\n'}
+[5.615652] (pubsub_intro) CommandEnded: {'returncode': 0}
+[5.623659] (pubsub_intro) JobEnded: {'identifier': 'pubsub_intro', 'rc': 0}
+[5.623984] (-) EventReactorShutdown: {}
